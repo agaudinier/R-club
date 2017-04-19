@@ -1,0 +1,27 @@
+---
+title: "4_19_17 Homework"
+author: "Allie Gaudinier"
+date: "4/19/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## RRRrr Club Homework
+
+```{r} 
+vect <- c("a", "b", "c", "d", "e", "f", "g", "h")
+
+vect
+
+matrix <-cbind(vect, 7)
+matrix <-cbind(vect, 5)
+
+matrix2 <- as.data.frame(matrix)
+
+head(matrix2)
+
+summary(matrix2)
+```
