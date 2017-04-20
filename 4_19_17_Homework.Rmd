@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## RRRrr Club Homework
+## R Club Homework
 
 ```{r} 
 vect <- c("a", "b", "c", "d", "e", "f", "g", "h")
